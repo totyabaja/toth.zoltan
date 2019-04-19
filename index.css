@@ -1,0 +1,18 @@
+html *{
+	font-size: 12px;
+}
+
+h2{
+	font-weight: 700;
+	font-size: 1.4em;
+	padding: 10px 0px 10px 20px;
+	border-bottom: 2px rgb(100,100, 255) solid;
+	color: rgb(100,100, 255);
+}
+
+div.inline div{
+	display: inline-block;
+}
+table tr td[colpsan]{
+	font-weight: 700;
+}

@@ -1,0 +1,31 @@
+tanulmanyok:
+  - egyetem: Budapesti Műszaki és Gazdaságtudományi Egyetem
+    egyetemEN: Budapest University of Technology and Economics
+    kar: Villamosmérnöki és Informatikia Kar
+    karEN:
+    szak: Villamosnérnöki BSc szak
+    szakEN:
+    kar_short: VIK
+    tema: 
+    date_start: 2010
+    date_end: 2014
+  - egyetem: Budapesti Műszaki és Gazdaságtudományi Egyetem
+    egyetemEN: Budapest University of Technology and Economics
+    kar: Villamosmérnöki és Informatikia Kar
+    karEN:
+    szak: Villamosnérnöki MSc szak
+    szakEN:
+    kar_short: VIK
+    tema: 
+    date_start: 2014
+    date_end: 2016
+  - egyetem: Budapesti Műszaki és Gazdaságtudományi Egyetem
+    egyetemEN: Budapest University of Technology and Economics
+    kar: Villamosmérnöki Tudományok Doktori Iskola
+    karEN:
+    szak: 
+    szakEN:
+    kar_short: VIK
+    tema: 
+    date_start: 2016
+    date_end: 2020

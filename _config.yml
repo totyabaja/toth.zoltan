@@ -1,1 +1,14 @@
-theme: jekyll-theme-architect
+# Site settings
+title: Tóth Zoltán személyes oldala
+email: toth.zoltan@vet.bme.hu
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://totyabaja.github.io/toth.zoltan/" # the base hostname & protocol for your site
+
+gems: [jekyll-paginate, jekyll-redirect-from]
+markdown: kramdown
+
+# additions
+
+future: true
+
+paginate: 1

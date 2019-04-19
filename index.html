@@ -1,0 +1,131 @@
+---
+layout: default
+title: Tóth Zoltán
+---
+
+<div>
+	<h2>Személyes adatok</h2>
+	<table>
+		<tr>
+			<td>Név</td>
+			<td>Tóth Zoltán</td>
+		</tr>
+		<tr>
+			<td>Szül. hely és idő</td><td>Budapest IX, 1992.03.14.</td>
+		</tr>
+		<tr>
+			<td>Mobil</td>
+			<td>+36 (30) 517-4765</td>
+		</tr>
+		<tr>
+			<td>E-mail</td>
+			<td>toth.zoltan@dosz.hu</td>
+		</tr>
+	</table>
+</div>
+
+<div>
+	<h2>Tanulmányok</h2>
+	{% assign tanulmanyok = (site.data.tanulmanyok.tanulmanyok | sort: 'date_start' | reverse) %}
+	{% for tanulmany in tanulmanyok%}	
+	<div>	
+		<table>
+			<tr>
+				<td>{{ tanulmany.egyetem }}</td>
+			</tr>
+			<tr>
+				<td>{{ tanulmany.kar }}</td>
+			</tr>
+			<tr>
+				<td>{{ tanulmany.szak }}</td>
+			</tr>
+			<tr>
+				<td>{{ tanulmany.tema }}</td>
+			</tr>
+			<tr>
+				<td>{{ tanulmany.date_start }} - {{ tanulmany.date_end }}</td>
+			</tr>
+		</table>
+	</div>
+	{% endfor %}
+</div>
+
+<div>
+	<h2>Nyelvtudás</h2>
+	<table>
+	{% assign nyelvek = site.data.nyelvek.nyelvek %}
+	{% for nyelv in nyelvek%}	
+	<tr>
+		<td>{{ nyelv.nyelv }}</td>
+		<td>{{ nyelv.kiallito }}</td>
+		<td>{{ nyelv.fok }}-{{ nyelv.tipus}}</td>
+	</tr>
+	{% endfor %}
+	</table>
+</div>
+
+<div>
+	<h2>Tagságok, tevékenységek</h2>
+	{% assign tagsagok = site.data.tagsagok.tagsagok %}	
+	<div>	
+		<table>
+		{% for tagsag in tagsagok%}
+			<tr>
+				<td colspan='3'>{{ tagsag.szervezet }}</td>
+			</tr>
+				{% assign i = -1 %}
+			<tr>			
+				{% for di in tagsag.szint %}
+					{% assign i = i | plus: 1 %}
+				<td>{{ tagsag.alszervezet[i] }}</td>
+				<td>{{tagsag.szint[i]}}</td>
+				<td>{{tagsag.date_start[i]}}-{{tagsag.date_end[i]}}</td>
+			</tr>
+				{% endfor %}
+		{% endfor %}
+		</table>
+	</div>
+	
+</div>
+
+<div>
+	<h2>Szakmai tapasztalatok</h2>
+
+</div>
+
+<div>
+	<h2>Díjak, elismerések</h2>
+	<table>
+		{% assign dijak = site.data.dijak.dijak %}
+		{% for dij in dijak%}	
+		<tr>
+			<td>{{ dij.neve }}</td>
+			<td>{{ dij.fok }}</td>
+			<td>{{ dij.mikor }}</td>
+		</tr>
+		{% endfor %}
+	</table>
+</div>
+
+<div>
+	<h2>Ösztöndíj</h2>
+	<table>
+		{% assign osztondijak = site.data.osztondijak.osztondijak %}
+		{% for osztondij in osztondijak%}	
+		<tr>
+			<td>{{ osztondij.neve }}</td>
+			<td>{{ osztondij.date_start }}-{{ osztondij.date_end }}</td>
+		</tr>
+		{% endfor %}
+	</table>
+</div>
+
+<div>
+	<h2>Cikkek, publikációk</h2>
+
+</div>
+
+<div>
+	<h2>Oktatási tevékenység</h2>
+
+</div>

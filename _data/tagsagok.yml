@@ -1,0 +1,157 @@
+tagsagok:
+  - szervezet: Mesterséges Intelligencia Koalíció
+    szervezetEN: 
+    alszervezet:
+      -
+    alszervezetEN:
+      -
+    szint:
+      - tag
+    date_start:
+      - 2019.04.18.
+    date_end:
+      - 
+  - szervezet: Duális Képzés Bizottság
+    szervezetEN: 
+    alszervezet:
+      -
+    alszervezetEN:
+      -
+    szint:
+      - tag
+    date_start:
+      - 2019
+    date_end:
+      - 
+  - szervezet: Doktoranduszok Országos Szövetsége
+    szervezetEN: 
+    alszervezet:
+      - elnökség
+      - Műszaki Tudományok Osztály
+      - Fizikai Tudományok Osztály
+      - Tudományos Osztályok Bizottság
+      - Doktorandusz Önkormányzatok Finanszírozása Bizottság
+    alszervezetEN:
+      - 
+      - 
+      - 
+      - 
+      - 
+    szint:
+      - elnökségi tag
+      - tag
+      - tag
+      - tag
+      - tag
+    date_start:
+      - 2019.01.01.
+      - 2018.09.01.
+      - 2019.01.01.
+      - 2018.01.01.
+      - 2018.01.01.
+    date_end:
+      - 
+      - 
+      - 
+      - 2018.05.31.
+      - 2018.05.31.
+  - szervezet: CIGRÉ – International Council on Large Electric Systems
+    szervezetEN: 
+    alszervezet:
+      -
+    alszervezetEN:
+      -
+    szint:
+      - tag
+    date_start:
+      - 2018.03.01.
+    date_end:
+      - 
+  - szervezet: Magyar Elektrotechnikai Egyesület
+    szervezetEN: 
+    alszervezet:
+      -
+      - Mechwart András Ifjúsági Tagozat
+      - Villámvédelmi Munkabizottság
+    alszervezetEN:
+      -
+    szint:
+      - tag
+      - tag
+      - tag
+    date_start:
+      - 2013.03.01.
+      - 2018.06.01.
+      - 2019.01.01.
+    date_end:
+      - 
+      - 
+      - 
+  - szervezet: Egyetemi Doktorandusz Képviselet
+    szervezetEN: 
+    alszervezet:
+      - 
+      - 
+    alszervezetEN:
+      -
+      -
+    szint:
+      - VTDI és ITDI képviselő
+      - enök
+    date_start:
+      - 2016.09.01
+      - 2017.09.01.
+    date_end:
+      - 2018.10.01.
+      - 2019.08.31.
+  - szervezet: Simonyi Károly Szakkollégium
+    szervezetEN: 
+    alszervezet:
+      - Schönherz Elektronikai Műhely
+      - Schönherz Elektronikai Műhely
+    alszervezetEN:
+      -
+      -
+    szint:
+      - tag
+      - öregtag
+    date_start:
+      - 2013.09.01.18.
+      - 2015.01.01.
+    date_end:
+      - 2015.01.01.
+      - 
+  - szervezet: IEEE – Institute of Electrical and Electronics Engineers
+    szervezetEN: 
+    alszervezet:
+      -
+    alszervezetEN:
+      -
+    szint:
+      - tag
+    date_start:
+      - 2015.12.01.
+    date_end:
+      - 
+  - szervezet: MAVE – EESTES LC Budapest
+    szervezetEN: 
+    alszervezet:
+      -
+      -
+      -
+    alszervezetEN:
+      -
+      -
+      -
+    szint:
+      - tag
+      - külkapcsolatokért felelős alelnök
+      - gazdasági titkár
+    date_start:
+      - 2013.12.01.
+      - 2014.10.01.
+      - 2015.10.18.
+    date_end:
+      - 2017.02.28.
+      - 2015.10.31.
+      - 2017.01.31.
