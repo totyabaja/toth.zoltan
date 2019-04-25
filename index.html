@@ -9,6 +9,7 @@ title: Tóth Zoltán
 		<tr>
 			<td>Név</td>
 			<td>Tóth Zoltán</td>
+			<td rowspan='5'><img src="tz.png" /></td>
 		</tr>
 		<tr>
 			<td>Szül. hely és idő</td><td>Budapest IX, 1992.03.14.</td>
@@ -21,6 +22,7 @@ title: Tóth Zoltán
 			<td>E-mail</td>
 			<td>toth.zoltan@dosz.hu</td>
 		</tr>
+		<tr></tr>
 	</table>
 </div>
 
@@ -31,19 +33,17 @@ title: Tóth Zoltán
 	<div>	
 		<table>
 			<tr>
-				<td>{{ tanulmany.egyetem }}</td>
+				<td class='plus2 bold'>{{ tanulmany.egyetem }}</td>
 			</tr>
 			<tr>
 				<td>{{ tanulmany.kar }}</td>
 			</tr>
 			<tr>
 				<td>{{ tanulmany.szak }}</td>
+				<td>{{ tanulmany.date_start }} - {{ tanulmany.date_end }}</td>
 			</tr>
 			<tr>
 				<td>{{ tanulmany.tema }}</td>
-			</tr>
-			<tr>
-				<td>{{ tanulmany.date_start }} - {{ tanulmany.date_end }}</td>
 			</tr>
 		</table>
 	</div>
@@ -117,6 +117,13 @@ title: Tóth Zoltán
 			<td>{{ osztondij.date_start }}-{{ osztondij.date_end }}</td>
 		</tr>
 		{% endfor %}
+	</table>
+</div>
+
+<div>
+	<h2>tudományos tevékenység</h2>
+	<table>
+	
 	</table>
 </div>
 
