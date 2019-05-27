@@ -1,4 +1,16 @@
 tagsagok:
+  - szervezet: Magyar Akkreditációs Bizottság
+    szervezetEN: 
+    alszervezet:
+      - Természettudományi Bizottság
+    alszervezetEN:
+      -
+    szint:
+      - tag
+    date_start:
+      - 2019.06.01.
+    date_end:
+      - 
   - szervezet: Mesterséges Intelligencia Koalíció
     szervezetEN: 
     alszervezet:

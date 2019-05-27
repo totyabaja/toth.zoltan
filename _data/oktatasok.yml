@@ -1,0 +1,79 @@
+oktatasok:
+  - neve: Villamos energetika (laborgyakorlat) HU-EN-DE
+    neveEN: Power System Engineering
+    NEPTUN: VIVEA207
+    date: 2014/2015/2, 2015/2016/2, 2016/2017/2, 2017/2018/2, 2018/2019/2
+  - neve: Elektronika és alkalmazások (laborgyakorlat)
+    neveEN:  Electronics and Applications
+    NEPTUN: VIVEA097
+    date: 2014/2015/2, 2015/2016/2
+  - neve: Villamos energetika laboratórium (laborgyakorlat)
+    neveEN: Power Engineering Laboratory
+    NEPTUN: VIVEA337
+    date: 2014/2015/2, 2015/2016/2
+  - neve: Elektrotechnika (laborgyakorlat) HU-EN-DE
+    neveEN:
+    NEPTUN: VIVEA201, VIVEA002, VIVEAB00
+    date: 2015/2016/1, 2016/2017/1, 2017/2018/1, 2018/2019/1
+  - neve: Villamos laboratórium 1. (laborgyakorlat)
+    neveEN:
+    NEPTUN: VIVEA042
+    date: 2014/2015/2, 2015/2016/2
+  - neve: Villamos berendezések és szigetelések (gyakorlat)
+    neveEN:
+    NEPTUN: VIVEAC02
+    date: 2016/2017/1
+  - neve: Épületvillamosság laboratórium (laborgyakorlat)
+    neveEN:
+    NEPTUN: 
+    date: 2016/2017/2, 2017/2018/2, 2018/2019/2
+  - neve: Smart Grid laboratórium (laborgyakorlat)
+    neveEN:
+    NEPTUN: 
+    date: 2016/2017/2, 2017/2018/2, 2018/2019/2
+  - neve: Szigetelési rendszerek laboratórium (laborgyakorlat)
+    neveEN:
+    NEPTUN: 
+    date: 2016/2017/2, 2017/2018/2, 2018/2019/2
+  - neve: E-mobilitás laboratórium (laborgyakorlat)
+    neveEN:
+    NEPTUN: 
+    date: 2016/2017/2, 2017/2018/2, 2018/2019/2
+  - neve: Villamos laboratórium 2. (laborgyakorlat)
+    neveEN:
+    NEPTUN: 
+    date: 2016/2017/2, 2017/2018/2
+  - neve: Villámvédelem (laborgyakorlat és előadásalkalmak)
+    neveEN:
+    NEPTUN: 
+    date: 2016/2017/2, 2017/2018/1, 2017/2018/2, 2018/2019/1, 2018/2019/2
+  - neve: Villamosenergia-rendszerek laboratórium 1. (laborgyakorlat)
+    neveEN:
+    NEPTUN: 
+    date: 2016/2017/1, 2017/2018/1, 2018/2019/1
+  - neve: Villamosenergia-rendszerek laboratórium 2. (laborgyakorlat)
+    neveEN:
+    NEPTUN: VIVEAMB00
+    date: 2016/17/2, 2017/2018/2
+  - neve: Programozás alapjai 2 (laborgyakorlat)
+    neveEN:
+    NEPTUN: VIIIAA00
+    date: 2016/2017/2
+  - neve: Zaj-rezgés és elektromos mágneses védelem (laborgyakorlat és előadásalkalmak)
+    neveEN:
+    NEPTUN: VIVEA021
+    date: 2016/2017/2, 2017/2018/2, 2018/2019/2
+  - neve: Tanköri foglalkozás 1.
+    neveEN:
+    NEPTUN: BMEVIDHKONV, BMEVIDHKONI
+    date: 2017/2018/1, 2018/2019/1
+  - neve: Tanköri foglalkozás 2.
+    neveEN:
+    NEPTUN: BMEVIDHTF02
+    date: 2017/2018/2, 2018/2019/2
+  - neve: A programozás alapjai (laborgyakorlatok)
+    neveEN:
+    NEPTUN: BMEVIEEBA01
+    date: 2018/2019/1
+
+

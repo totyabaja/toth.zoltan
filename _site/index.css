@@ -3,7 +3,7 @@
 }
 
 html *{
-	font-size: 12px;
+	font-size: 14px;
 }
 
 h2{
@@ -32,6 +32,13 @@ td[colspan]{
 td>img{
 	margin-top: -30%;
 	
+}
+td{
+	vertical-align: top;
+}
+
+.border_bottom td{
+	border-bottom: 1px var(--main-color) solid;
 }
 
 .bold{

@@ -16,11 +16,18 @@ title: Tóth Zoltán
 		</tr>
 		<tr>
 			<td>Mobil</td>
-			<td>+36 (30) 517-4765</td>
+			<td>
+				+36 (30) 517-4765<br />
+				+36 (20) 310-7686
+			</td>
 		</tr>
 		<tr>
 			<td>E-mail</td>
-			<td>toth.zoltan@dosz.hu</td>
+			<td>
+				<a href="mailto:toth.zoltan@dosz.hu">toth.zoltan@dosz.hu</a>
+				<br />
+				<a href="mailto:toth.zoltan@vet.bme.hu">toth.zoltan@vet.bme.hu</a>
+			</td>
 		</tr>
 		<tr></tr>
 	</table>
@@ -42,8 +49,9 @@ title: Tóth Zoltán
 				<td>{{ tanulmany.szak }}</td>
 				<td>{{ tanulmany.date_start }} - {{ tanulmany.date_end }}</td>
 			</tr>
-			<tr>
+			<tr class="border_bottom">
 				<td>{{ tanulmany.tema }}</td>
+				<td></td>
 			</tr>
 		</table>
 	</div>
@@ -90,7 +98,31 @@ title: Tóth Zoltán
 
 <div>
 	<h2>Szakmai tapasztalatok</h2>
-
+	<div>
+		Szakmai gyakorlat
+		2013.június – 2014. május
+			Napelemes rendszerek tervezése és kivitelezése – Zöldvillany Kft.
+		2015.július – 2015. augusztus
+			Villamos Energetika Tanszék – Nagyfeszültségű Laboratórium
+		Egyetemi projektmunkák
+			Kábelállapot- és diagnosztikai rendszer kialakítása
+			BSc-s laborok tartása magyar, német és angol nyelven
+			Automata vezérlés tervezése 750kV-os impulzusgenerátorhoz
+			Számítógépes interfész tervezése próbatranszformátorhoz
+			Laboratóriumi eszközpark nyilvántartó rendszer fejlesztése
+			Transzformátor, mérőváltó és megszakító állapottényező program fejlesztése
+		Egyetemen kívüli projektek
+		Challange24 International Programing Contest (ch24.org)
+			2014	szervező
+			2015	szervező
+			2016	szervező, gazdasági felelős
+		BeeSmarter 24-órás Applikáció Fejlesztő és Dizájner Csapatverseny (beesmarter.org)
+			2014	szervező
+			2015	helyszíni főszervező
+			2016	főszervező, gazdasági felelős
+		Ethical Hacking Workshop
+			2015	FR-ért felelős szervező
+	</div>
 </div>
 
 <div>
@@ -121,18 +153,34 @@ title: Tóth Zoltán
 </div>
 
 <div>
-	<h2>tudományos tevékenység</h2>
+	<h2>Tudományos tevékenység</h2>
 	<table>
-	
+		{% assign tudtevek = site.data.tudtevek.tudtevek %}
+		{% for tudtev in tudtevek%}	
+		<tr>
+			<td>{{ tudtev.neve }}</td>
+			<td>{{ tudtev.date }}</td>
+		</tr>
+		{% endfor %}
 	</table>
 </div>
 
 <div>
 	<h2>Cikkek, publikációk</h2>
-
+	<a href="https://m2.mtmt.hu/gui2/?type=authors&mode=browse&sel=10055384&view=simpleList">MTMT</a>
+	<br />
+	<a href="https://scholar.google.hu/citations?user=jumAWD4AAAAJ&hl=hu">Google Scholar</a>
 </div>
 
 <div>
 	<h2>Oktatási tevékenység</h2>
-
+	<table>
+		{% assign oktatasok = site.data.oktatasok.oktatasok %}
+		{% for oktatas in oktatasok%}	
+		<tr>
+			<td>{{ oktatas.neve }} /{{ oktatas.NEPTUN }}/</td>
+			<td>{{ oktatas.date }}</td>
+		</tr>
+		{% endfor %}
+	</table>
 </div>
