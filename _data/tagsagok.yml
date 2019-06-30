@@ -11,6 +11,18 @@ tagsagok:
       - 2019.06.01.
     date_end:
       - 
+  - szervezet: Magyar Szabványügyi Testület
+    szervezetEN: 
+    alszervezet:
+      - MSZT/MB 841 Villámvédelem
+    alszervezetEN:
+      -
+    szint:
+      - szakértő
+    date_start:
+      - 2019.02.01.
+    date_end:
+      - 
   - szervezet: Mesterséges Intelligencia Koalíció
     szervezetEN: 
     alszervezet:
