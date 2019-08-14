@@ -97,9 +97,11 @@ tagsagok:
       -
       - Mechwart András Ifjúsági Tagozat
       - Villámvédelmi Munkabizottság
+      - Oktatási Bizottság
     alszervezetEN:
       -
     szint:
+      - tag
       - tag
       - tag
       - tag
@@ -107,7 +109,9 @@ tagsagok:
       - 2013.03.01.
       - 2018.06.01.
       - 2019.01.01.
+      - 2019.08.14.
     date_end:
+      - 
       - 
       - 
       - 
