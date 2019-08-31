@@ -1,92 +1,88 @@
 tagsagok:
   - szervezet: Magyar Akkreditációs Bizottság
-    szervezetEN: 
+    szervezetEN: Accreditation Body of Hungary
     alszervezet:
       - Természettudományi Bizottság
     alszervezetEN:
-      -
+      - Committee for STEM
     szint:
       - tag
+    szintEN:
+      - member
     date_start:
       - 2019.06.01.
     date_end:
       - 
   - szervezet: Magyar Szabványügyi Testület
-    szervezetEN: 
+    szervezetEN: Standardization Body of Hungary
     alszervezet:
       - MSZT/MB 841 Villámvédelem
     alszervezetEN:
-      -
+      - MSZT/MB 841 Lightning Protection
     szint:
       - szakértő
+    szintEN:
+      - expert
     date_start:
       - 2019.02.01.
     date_end:
       - 
   - szervezet: Mesterséges Intelligencia Koalíció
-    szervezetEN: 
+    szervezetEN: Artificial Intelligence Coalition of Hungary
     alszervezet:
       -
     alszervezetEN:
       -
     szint:
       - delegált
+    szintEN:
+      - delegate
     date_start:
       - 2019.04.18.
     date_end:
       - 
   - szervezet: Duális Képzés Bizottság
-    szervezetEN: 
+    szervezetEN: Dual Training Council
     alszervezet:
       -
     alszervezetEN:
       -
     szint:
       - delegált
+    szintEN:
+      - delegate
     date_start:
       - 2019
     date_end:
       - 
   - szervezet: Doktoranduszok Országos Szövetsége
-    szervezetEN: 
+    szervezetEN: Association of Hungarian PhD and DLA Students
     alszervezet:
       - elnökség
       - Műszaki Tudományok Osztály
       - Fizikai Tudományok Osztály
-      - Tudományos Osztályok Bizottság
-      - Doktorandusz Önkormányzatok Finanszírozása Bizottság
     alszervezetEN:
       - board
-      - STEM
-      - 
-      - 
-      - 
+      - Scientific Class of Physics
+      - Scientific Class of Technical Sciences 
     szint:
       - elnökségi tag
-      - tag
-      - tag
       - tag
       - tag
     szintEN:
       - board member
       - member
       - member
-      - member
-      - member
     date_start:
       - 2019.01.01.
       - 2018.09.01.
       - 2019.01.01.
-      - 2018.01.01.
-      - 2018.01.01.
     date_end:
       - 
       - 
       - 
-      - 2018.05.31.
-      - 2018.05.31.
   - szervezet: CIGRÉ – International Council on Large Electric Systems
-    szervezetEN: 
+    szervezetEN: CIGRÉ – International Council on Large Electric Systems
     alszervezet:
       -
       - WG C4-57 ~ Guidelines for the Estimation of Overhead Distribution Line Lightning Performance and its Application to Lightning Protection Design
@@ -106,19 +102,27 @@ tagsagok:
       - 
       - 
   - szervezet: Magyar Elektrotechnikai Egyesület
-    szervezetEN: 
+    szervezetEN: Hungarian Electrotechnical Association
     alszervezet:
       -
       - Mechwart András Ifjúsági Tagozat
       - Villámvédelmi Munkabizottság
       - Oktatási Bizottság
     alszervezetEN:
-      -
+      - 
+      - Mechwart Andras Youth Division
+      - WG Lightning Protection
+      - Education Committee 
     szint:
       - tag
       - tag
       - tag
       - tag
+    szintEN:
+      - member
+      - member
+      - member
+      - member
     date_start:
       - 2013.03.01.
       - 2018.06.01.
@@ -135,8 +139,8 @@ tagsagok:
       - 
       - 
     alszervezetEN:
-      -
-      -
+      - 
+      - 
     szint:
       - VTDI és ITDI képviselő
       - elnök
@@ -184,7 +188,7 @@ tagsagok:
     date_end:
       - 
   - szervezet: MAVE – EESTES LC Budapest
-    szervezetEN: 
+    szervezetEN: MAVE – EESTES LC Budapest
     alszervezet:
       -
       -
@@ -197,6 +201,10 @@ tagsagok:
       - tag
       - külkapcsolatokért felelős alelnök
       - gazdasági titkár
+    szint:
+      - member
+      - vice-president of FR
+      - treasurer
     date_start:
       - 2013.12.01.
       - 2014.10.01.

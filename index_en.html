@@ -73,20 +73,20 @@ redirect_from: "/en/"
 </div>
 
 <div>
-	<h2>Tagságok, tevékenységek</h2>
+	<h2>Memberships</h2>
 	{% assign tagsagok = site.data.tagsagok.tagsagok %}	
 	<div>	
 		<table>
 		{% for tagsag in tagsagok%}
 			<tr>
-				<td colspan='3'>{{ tagsag.szervezet }}</td>
+				<td colspan='3'>{{ tagsag.szervezetEN }}</td>
 			</tr>
 				{% assign i = -1 %}
 			<tr>			
-				{% for di in tagsag.szint %}
+				{% for di in tagsag.szintEN %}
 					{% assign i = i | plus: 1 %}
-				<td>{{ tagsag.alszervezet[i] }}</td>
-				<td>{{tagsag.szint[i]}}</td>
+				<td>{{ tagsag.alszervezetEN[i] }}</td>
+				<td>{{tagsag.szintEN[i]}}</td>
 				<td>{{tagsag.date_start[i]}}-{{tagsag.date_end[i]}}</td>
 			</tr>
 				{% endfor %}
