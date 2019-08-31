@@ -30,7 +30,7 @@ tagsagok:
     alszervezetEN:
       -
     szint:
-      - tag
+      - delegált
     date_start:
       - 2019.04.18.
     date_end:
@@ -42,7 +42,7 @@ tagsagok:
     alszervezetEN:
       -
     szint:
-      - tag
+      - delegált
     date_start:
       - 2019
     date_end:
@@ -56,8 +56,8 @@ tagsagok:
       - Tudományos Osztályok Bizottság
       - Doktorandusz Önkormányzatok Finanszírozása Bizottság
     alszervezetEN:
-      - 
-      - 
+      - board
+      - STEM
       - 
       - 
       - 
@@ -67,6 +67,12 @@ tagsagok:
       - tag
       - tag
       - tag
+    szintEN:
+      - board member
+      - member
+      - member
+      - member
+      - member
     date_start:
       - 2019.01.01.
       - 2018.09.01.
@@ -83,13 +89,21 @@ tagsagok:
     szervezetEN: 
     alszervezet:
       -
+      - WG C4-57 ~ Guidelines for the Estimation of Overhead Distribution Line Lightning Performance and its Application to Lightning Protection Design
     alszervezetEN:
-      -
+      - 
+      - WG C4-57 ~ Guidelines for the Estimation of Overhead Distribution Line Lightning Performance and its Application to Lightning Protection
     szint:
       - tag
+      - tag
+    szintEN:
+      - member
+      - member
     date_start:
       - 2018.03.01.
+      - 2019.09.01.
     date_end:
+      - 
       - 
   - szervezet: Magyar Elektrotechnikai Egyesület
     szervezetEN: 
@@ -115,8 +129,8 @@ tagsagok:
       - 
       - 
       - 
-  - szervezet: Egyetemi Doktorandusz Képviselet
-    szervezetEN: 
+  - szervezet: BME Egyetemi Doktorandusz Képviselet
+    szervezetEN: BME PhD and DLA Student Union
     alszervezet:
       - 
       - 
@@ -126,6 +140,9 @@ tagsagok:
     szint:
       - VTDI és ITDI képviselő
       - elnök
+    szintEN:
+      - delegate
+      - president
     date_start:
       - 2016.09.01
       - 2017.09.01.
@@ -133,16 +150,19 @@ tagsagok:
       - 2018.10.01.
       - 2019.08.31.
   - szervezet: Simonyi Károly Szakkollégium
-    szervezetEN: 
+    szervezetEN: Student Association Simonyi Károly
     alszervezet:
       - Schönherz Elektronikai Műhely
       - Schönherz Elektronikai Műhely
     alszervezetEN:
-      -
-      -
+      - Electrical Workshop Schönherz
+      -Electrical Workshop Schönherz
     szint:
       - tag
       - öregtag
+    szintEN:
+      - member
+      - alumni
     date_start:
       - 2013.09.01.18.
       - 2015.01.01.
@@ -150,13 +170,15 @@ tagsagok:
       - 2015.01.01.
       - 
   - szervezet: IEEE – Institute of Electrical and Electronics Engineers
-    szervezetEN: 
+    szervezetEN: IEEE – Institute of Electrical and Electronics Engineers
     alszervezet:
       -
     alszervezetEN:
       -
     szint:
       - tag
+    szintEN:
+      - member
     date_start:
       - 2015.12.01.
     date_end:
