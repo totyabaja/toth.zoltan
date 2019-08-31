@@ -2,9 +2,9 @@ tanulmanyok:
   - egyetem: Budapesti Műszaki és Gazdaságtudományi Egyetem
     egyetemEN: Budapest University of Technology and Economics
     kar: Villamosmérnöki és Informatikia Kar
-    karEN:
+    karEN: Faculty of Electrical Engineering and Informatics
     szak: Villamosnérnöki BSc szak
-    szakEN:
+    szakEN: Electrical Engineering, Bsc
     kar_short: VIK
     tema: 
     date_start: 2010
@@ -12,9 +12,9 @@ tanulmanyok:
   - egyetem: Budapesti Műszaki és Gazdaságtudományi Egyetem
     egyetemEN: Budapest University of Technology and Economics
     kar: Villamosmérnöki és Informatikia Kar
-    karEN:
+    karEN: Faculty of Electrical Engineering and Informatics
     szak: Villamosnérnöki MSc szak
-    szakEN:
+    szakEN: Electrical Engineering, MSc
     kar_short: VIK
     tema: 
     date_start: 2014
@@ -22,10 +22,10 @@ tanulmanyok:
   - egyetem: Budapesti Műszaki és Gazdaságtudományi Egyetem
     egyetemEN: Budapest University of Technology and Economics
     kar: Villamosmérnöki Tudományok Doktori Iskola
-    karEN:
+    karEN: Dcctoral School of Electrical Engineering Sciences
     szak: 
-    szakEN:
+    szakEN: 
     kar_short: VIK
-    tema: 
+    tema:
     date_start: 2016
     date_end: 2020

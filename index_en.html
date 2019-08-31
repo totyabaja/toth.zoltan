@@ -1,0 +1,280 @@
+---
+layout: default
+title: Tóth, Zoltán
+redirect_from: "/en/"
+---
+
+<div>
+	<h2>Personal infos</h2>
+	<table>
+		<tr>
+			<td>Name</td>
+			<td>Zoltán Tóth</td>
+			<td rowspan='5'><img src="tz.png" /></td>
+		</tr>
+		<tr>
+			<td>Place & date of birth</td><td>Budapest, 14.03.1992</td>
+		</tr>
+		<tr>
+			<td>Mobil</td>
+			<td>
+				+36 (20) 310-7686
+			</td>
+		</tr>
+		<tr>
+			<td>E-mail</td>
+			<td>
+				<a href="mailto:toth.zoltan@vet.bme.hu">toth.zoltan@vet.bme.hu</a>
+			</td>
+		</tr>
+		<tr></tr>
+	</table>
+</div>
+
+<div>
+	<h2>Studies</h2>
+	{% assign tanulmanyok = (site.data.tanulmanyok.tanulmanyok | sort: 'date_start' | reverse) %}
+	{% for tanulmany in tanulmanyok%}	
+	<div>	
+		<table>
+			<tr>
+				<td class='plus2 bold'>{{ tanulmany.egyetemEN }}</td>
+			</tr>
+			<tr>
+				<td>{{ tanulmany.karEN }}</td>
+			</tr>
+			<tr>
+				<td>{{ tanulmany.szakEN }}</td>
+				<td>{{ tanulmany.date_start }} - {{ tanulmany.date_end }}</td>
+			</tr>
+			<tr class="border_bottom">
+				<td>{{ tanulmany.tema }}</td>
+				<td></td>
+			</tr>
+		</table>
+	</div>
+	{% endfor %}
+</div>
+
+<div>
+	<h2>Nyelvtudás</h2>
+	<table>
+	{% assign nyelvek = site.data.nyelvek.nyelvek %}
+	{% for nyelv in nyelvek%}	
+	<tr>
+		<td>{{ nyelv.nyelv }}</td>
+		<td>{{ nyelv.kiallito }}</td>
+		<td>{{ nyelv.fok }}-{{ nyelv.tipus}}</td>
+	</tr>
+	{% endfor %}
+	</table>
+</div>
+
+<div>
+	<h2>Tagságok, tevékenységek</h2>
+	{% assign tagsagok = site.data.tagsagok.tagsagok %}	
+	<div>	
+		<table>
+		{% for tagsag in tagsagok%}
+			<tr>
+				<td colspan='3'>{{ tagsag.szervezet }}</td>
+			</tr>
+				{% assign i = -1 %}
+			<tr>			
+				{% for di in tagsag.szint %}
+					{% assign i = i | plus: 1 %}
+				<td>{{ tagsag.alszervezet[i] }}</td>
+				<td>{{tagsag.szint[i]}}</td>
+				<td>{{tagsag.date_start[i]}}-{{tagsag.date_end[i]}}</td>
+			</tr>
+				{% endfor %}
+		{% endfor %}
+		</table>
+	</div>
+	
+</div>
+
+<div>
+	<h2>Szakmai tapasztalatok</h2>
+	<table>
+		<tr><td colspan='3'>Szakmai gyakorlat</td></tr>
+		<tr>
+			<td>2013.június – 2014. május</td>
+			<td>Napelemes rendszerek tervezése és kivitelezése – Zöldvillany Kft.</td>
+		</tr>
+		<tr>
+			<td>2015.július – 2015. augusztus</td>
+			<td>Villamos Energetika Tanszék – Nagyfeszültségű Laboratórium</td>
+		</tr>
+		<tr><td colspan='3'>Egyetemi projektmunkák</td></tr>
+		<tr><td colspan='2'>Kábelállapot- és diagnosztikai rendszer kialakítása</td></tr>
+		<tr><td colspan='2'>BSc-s laborok tartása magyar, német és angol nyelven</td></tr>
+		<tr><td colspan='2'>Automata vezérlés tervezése 750kV-os impulzusgenerátorhoz</td></tr>
+		<tr><td colspan='2'>Számítógépes interfész tervezése próbatranszformátorhoz</td></tr>
+		<tr><td colspan='2'>Laboratóriumi eszközpark nyilvántartó rendszer fejlesztése</td></tr>
+		<tr><td colspan='2'>Transzformátor, mérőváltó és megszakító állapottényező program fejlesztése</td></tr>
+		<tr><td colspan='3'>Egyetemen kívüli projektek</td></tr>
+		<tr>
+			<td colspan='2'>Challange24 International Programing Contest (ch24.org)</td>
+		</tr>
+		<tr>
+			<td>
+				<table>
+					<tr>
+						<td>2014</td>
+						<td>szervező</td>
+					</tr>
+					<tr>
+						<td>2015</td>
+						<td>szervező</td>
+					</tr>
+					<tr>
+						<td>2016</td>
+						<td>szervező, gazdasági felelős</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+		<tr>
+			<td colspan='2'>BeeSmarter 24-órás Applikáció Fejlesztő és Dizájner Csapatverseny (beesmarter.org)</td>
+		</tr>
+		<tr>
+			<td>
+				<table>
+					<tr>
+						<td>2014</td>
+						<td>szervező</td>
+					</tr>
+					<tr>
+						<td>2015</td>
+						<td>helyszíni főszervező</td>
+					</tr>
+					<tr>
+						<td>2016</td>
+						<td>főszervező, gazdasági felelős</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+		<tr>
+			<td colspan='2'>Ethical Hacking Workshop</td>
+		</tr>
+		<tr>
+			<td>
+				<table>
+					<tr>
+						<td>2015</td>
+						<td>FR-ért felelős szervező</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+		<tr>
+			<td colspan='2'>DOSz Sikeres Doktori Életpálya Kurzussorozat</td>
+		</tr>
+		<tr>
+			<td>
+				<table>
+					<tr>
+						<td>2019</td>
+						<td>szervező</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+</div>
+
+<div>
+	<h2>Díjak, elismerések</h2>
+	<table>
+		{% assign dijak = site.data.dijak.dijak %}
+		{% for dij in dijak%}	
+		<tr>
+			<td>{{ dij.neve }}</td>
+			<td>{{ dij.fok }}</td>
+			<td>{{ dij.mikor }}</td>
+		</tr>
+		{% endfor %}
+	</table>
+</div>
+
+<div>
+	<h2>Ösztöndíj</h2>
+	<table>
+		{% assign osztondijak = site.data.osztondijak.osztondijak %}
+		{% for osztondij in osztondijak%}	
+		<tr>
+			<td>{{ osztondij.neve }}</td>
+			<td>{{ osztondij.date_start }}-{{ osztondij.date_end }}</td>
+		</tr>
+		{% endfor %}
+	</table>
+</div>
+
+<div>
+	<h2>Tudományos tevékenység</h2>
+	<table>
+		{% assign tudtevek = site.data.tudtevek.tudtevek %}
+		{% for tudtev in tudtevek%}	
+		<tr>
+			<td>{{ tudtev.neve }}</td>
+			<td>{{ tudtev.date }}</td>
+		</tr>
+		{% endfor %}
+	</table>
+</div>
+
+<div>
+	<h2>Cikkek, publikációk</h2>
+	<table>
+		<tr><td>
+			<a href="https://m2.mtmt.hu/gui2/?type=authors&mode=browse&sel=10055384&view=simpleList">MTMT</a>
+		</td></tr>
+		<tr><td>
+			<a href="https://scholar.google.hu/citations?user=jumAWD4AAAAJ&hl=hu">Google Scholar</a>
+		</td></tr>
+		<tr><td>
+			<iframe src="https://m2.mtmt.hu/api/publication?cond=published;eq;true&cond=core;eq;true&cond=authors.mtid;eq;10055384&sort=publishedYear,desc&sort=firstAuthor,asc&page=1&size=20&fields=template,citations.related.template,citations.page,citations.note,citations.context,citations.comment,citations.related.comment,citations.published,citations.externalCitation,citationCount&labelLang=hun&cite_type=5">
+			</iframe>
+		</td></tr>
+	</table>
+	
+</div>
+
+<div>
+	<h2>Témavezetés</h2>
+	<table>
+		<tr>
+			<td colspan='3'>BSc témavezetés</td>
+		</tr>
+		<tr>
+			<td>2017/18/1</td>
+			<td>Kőszegi Norbert</td>
+		</tr>
+		<tr>
+			<td>2018/19/2-2019/20/1</td>
+			<td>Oltványi László</td>
+		</tr>
+		<tr>
+			<td colspan='3'>MSc témavezetés</td>
+		</tr>
+		<tr>
+			<td>2016/17/2-2018/19/1</td>
+			<td>Zentai Péter</td>
+		</tr>
+	</table>
+</div>
+
+<div>
+	<h2>Oktatási tevékenység</h2>
+	<table>
+		{% assign oktatasok = site.data.oktatasok.oktatasok %}
+		{% for oktatas in oktatasok%}	
+		<tr>
+			<td>{{ oktatas.neve }} /{{ oktatas.NEPTUN }}/</td>
+			<td>{{ oktatas.date }}</td>
+		</tr>
+		{% endfor %}
+	</table>
+</div>
