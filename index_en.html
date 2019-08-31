@@ -10,10 +10,11 @@ redirect_from: "/en/"
 		<tr>
 			<td>Name</td>
 			<td>Zoltán Tóth</td>
-			<td rowspan='5'><img src="tz.png" /></td>
+			<td rowspan='6'><img src="tz.png" /></td>
 		</tr>
 		<tr>
-			<td>Place & date of birth</td><td>Budapest, 14.03.1992</td>
+			<td>Place & date of birth</td>
+			<td>Budapest, 14.03.1992</td>
 		</tr>
 		<tr>
 			<td>Mobil</td>
@@ -27,7 +28,8 @@ redirect_from: "/en/"
 				<a href="mailto:toth.zoltan@vet.bme.hu">toth.zoltan@vet.bme.hu</a>
 			</td>
 		</tr>
-		<tr></tr>
+		<tr><td></td><td></td></tr>
+		<tr><td></td><td></td></tr>
 	</table>
 </div>
 
@@ -57,12 +59,12 @@ redirect_from: "/en/"
 </div>
 
 <div>
-	<h2>Nyelvtudás</h2>
+	<h2>Foreign Languages</h2>
 	<table>
 	{% assign nyelvek = site.data.nyelvek.nyelvek %}
 	{% for nyelv in nyelvek%}	
 	<tr>
-		<td>{{ nyelv.nyelv }}</td>
+		<td>{{ nyelv.nyelvEN }}</td>
 		<td>{{ nyelv.kiallito }}</td>
 		<td>{{ nyelv.fok }}-{{ nyelv.tipus}}</td>
 	</tr>
