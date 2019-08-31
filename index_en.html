@@ -97,16 +97,16 @@ redirect_from: "/en/"
 </div>
 
 <div>
-	<h2>Szakmai tapasztalatok</h2>
+	<h2>Professional Experiences</h2>
 	<table>
-		<tr><td colspan='3'>Szakmai gyakorlat</td></tr>
+		<tr><td colspan='3'>Interships</td></tr>
 		<tr>
 			<td>2013.június – 2014. május</td>
-			<td>Napelemes rendszerek tervezése és kivitelezése – Zöldvillany Kft.</td>
+			<td>Design and construction of solar systems – Zöldvillany Kft.</td>
 		</tr>
 		<tr>
 			<td>2015.július – 2015. augusztus</td>
-			<td>Villamos Energetika Tanszék – Nagyfeszültségű Laboratórium</td>
+			<td>Department of Electric Power Engineering – High Voltage Laboratory</td>
 		</tr>
 		<tr><td colspan='3'>Egyetemi projektmunkák</td></tr>
 		<tr><td colspan='2'>Kábelállapot- és diagnosztikai rendszer kialakítása</td></tr>
@@ -115,7 +115,7 @@ redirect_from: "/en/"
 		<tr><td colspan='2'>Számítógépes interfész tervezése próbatranszformátorhoz</td></tr>
 		<tr><td colspan='2'>Laboratóriumi eszközpark nyilvántartó rendszer fejlesztése</td></tr>
 		<tr><td colspan='2'>Transzformátor, mérőváltó és megszakító állapottényező program fejlesztése</td></tr>
-		<tr><td colspan='3'>Egyetemen kívüli projektek</td></tr>
+		<tr><td colspan='3'>Project Experience</td></tr>
 		<tr>
 			<td colspan='2'>Challange24 International Programing Contest (ch24.org)</td>
 		</tr>
@@ -124,36 +124,36 @@ redirect_from: "/en/"
 				<table>
 					<tr>
 						<td>2014</td>
-						<td>szervező</td>
+						<td>organizer</td>
 					</tr>
 					<tr>
 						<td>2015</td>
-						<td>szervező</td>
+						<td>organizer</td>
 					</tr>
 					<tr>
 						<td>2016</td>
-						<td>szervező, gazdasági felelős</td>
+						<td>organizer, treasurer</td>
 					</tr>
 				</table>
 			</td>
 		</tr>
 		<tr>
-			<td colspan='2'>BeeSmarter 24-órás Applikáció Fejlesztő és Dizájner Csapatverseny (beesmarter.org)</td>
+			<td colspan='2'>BeeSmarter 24-hours Application Developer and Designer Contest (beesmarter.org)</td>
 		</tr>
 		<tr>
 			<td>
 				<table>
 					<tr>
 						<td>2014</td>
-						<td>szervező</td>
+						<td>organizer</td>
 					</tr>
 					<tr>
 						<td>2015</td>
-						<td>helyszíni főszervező</td>
+						<td>local main-organizer</td>
 					</tr>
 					<tr>
 						<td>2016</td>
-						<td>főszervező, gazdasági felelős</td>
+						<td>main-organizer, treasurer</td>
 					</tr>
 				</table>
 			</td>
@@ -166,20 +166,20 @@ redirect_from: "/en/"
 				<table>
 					<tr>
 						<td>2015</td>
-						<td>FR-ért felelős szervező</td>
+						<td>organizer, FR</td>
 					</tr>
 				</table>
 			</td>
 		</tr>
 		<tr>
-			<td colspan='2'>DOSz Sikeres Doktori Életpálya Kurzussorozat</td>
+			<td colspan='2'>DOSz Succesfull Doctoral Carreer Course Series</td>
 		</tr>
 		<tr>
 			<td>
 				<table>
 					<tr>
 						<td>2019</td>
-						<td>szervező</td>
+						<td>organizer</td>
 					</tr>
 				</table>
 			</td>
@@ -188,26 +188,26 @@ redirect_from: "/en/"
 </div>
 
 <div>
-	<h2>Díjak, elismerések</h2>
+	<h2>Prizes</h2>
 	<table>
 		{% assign dijak = site.data.dijak.dijak %}
 		{% for dij in dijak%}	
 		<tr>
-			<td>{{ dij.neve }}</td>
-			<td>{{ dij.fok }}</td>
-			<td>{{ dij.mikor }}</td>
+			<td>{{ dij.neveEN }}</td>
+			<td>{{ dij.fokEN }}</td>
+			<td>{{ dij.mikorEN }}</td>
 		</tr>
 		{% endfor %}
 	</table>
 </div>
 
 <div>
-	<h2>Ösztöndíj</h2>
+	<h2>Scholarships</h2>
 	<table>
 		{% assign osztondijak = site.data.osztondijak.osztondijak %}
 		{% for osztondij in osztondijak%}	
 		<tr>
-			<td>{{ osztondij.neve }}</td>
+			<td>{{ osztondij.neveEN }}</td>
 			<td>{{ osztondij.date_start }}-{{ osztondij.date_end }}</td>
 		</tr>
 		{% endfor %}
@@ -220,7 +220,7 @@ redirect_from: "/en/"
 		{% assign tudtevek = site.data.tudtevek.tudtevek %}
 		{% for tudtev in tudtevek%}	
 		<tr>
-			<td>{{ tudtev.neve }}</td>
+			<td>{{ tudtev.neveEN }}</td>
 			<td>{{ tudtev.date }}</td>
 		</tr>
 		{% endfor %}
@@ -228,7 +228,7 @@ redirect_from: "/en/"
 </div>
 
 <div>
-	<h2>Cikkek, publikációk</h2>
+	<h2>Publications</h2>
 	<table>
 		<tr><td>
 			<a href="https://m2.mtmt.hu/gui2/?type=authors&mode=browse&sel=10055384&view=simpleList">MTMT</a>
@@ -237,13 +237,14 @@ redirect_from: "/en/"
 			<a href="https://scholar.google.hu/citations?user=jumAWD4AAAAJ&hl=hu">Google Scholar</a>
 		</td></tr>
 		<tr><td>
-			<iframe src="https://m2.mtmt.hu/api/publication?cond=published;eq;true&cond=core;eq;true&cond=authors.mtid;eq;10055384&sort=publishedYear,desc&sort=firstAuthor,asc&page=1&size=20&fields=template,citations.related.template,citations.page,citations.note,citations.context,citations.comment,citations.related.comment,citations.published,citations.externalCitation,citationCount&labelLang=hun&cite_type=5">
+			<iframe src="https://m2.mtmt.hu/api/publication?cond=published;eq;true&cond=core;eq;true&cond=authors.mtid;eq;10055384&sort=publishedYear,desc&sort=firstAuthor,asc&size=20&fields=template,citations.related.template,citations.page,citations.note,citations.context,citations.comment,citations.related.comment,citations.published,citations.externalCitation,citationCount&&cite_type=5&page=1&labelLang=eng">
 			</iframe>
 		</td></tr>
 	</table>
 	
 </div>
 
+<!--
 <div>
 	<h2>Témavezetés</h2>
 	<table>
@@ -268,6 +269,7 @@ redirect_from: "/en/"
 	</table>
 </div>
 
+
 <div>
 	<h2>Oktatási tevékenység</h2>
 	<table>
@@ -280,3 +282,4 @@ redirect_from: "/en/"
 		{% endfor %}
 	</table>
 </div>
+-->

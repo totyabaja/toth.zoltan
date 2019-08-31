@@ -1,29 +1,36 @@
 dijak:
   - neve: BME TDK 2015 
-    neveEN: 
-    fok: II. helyezés 
+    neveEN: BME TDK 2015 
+    fok: II. helyezés
+    fokEN: 2nd prize
     mikor: 
   - neve: IEEE Student Paper Contest 2015 Hungary
-    neveEN: 
-    fok: I. helyezés 
+    neveEN: IEEE Student Paper Contest 2015 Hungary
+    fok: I. helyezés
+    fokEN: 1st prize
     mikor: 
   - neve: MEE Diplomaterv pályázat 2016
-    neveEN: 
-    fok: I. díj 
+    neveEN: MEE Thesis Contest 2016
+    fok: I. díj
+    fokEN: 1st prize
     mikor: 
   - neve: MEKH Diplomaterv pályázat 2016
-    neveEN: 
-    fok: III. helyezett 
+    neveEN: MEKH Thesis Contest 2016
+    fok: III. helyezett
+    fokEN: 3rd prize
     mikor: 
   - neve: MAIT 2017
-    neveEN: 
-    fok: MAVIR különdíj 
+    neveEN: MAIT 2017
+    fok: MAVIR különdíj
+    fokEN: MAVIR special award
     mikor: 
   - neve: MEE 2018
-    neveEN: 
-    fok: Nívó díj 
+    neveEN: MEE 2018
+    fok: Nívó díj
+    fokEN: Nivo prize
     mikor: 
   - neve: ISH 2019 Young Scientist Award
-    neveEN: 
+    neveEN: ISH 2019 Young Scientist Award
     fok: 
+    fokEN: 
     mikor: 
