@@ -104,22 +104,16 @@ tagsagok:
   - szervezet: IEC – International Electrotechnical Comission
     szervezetEN: IEC – International Electrotechnical Comission
     alszervezet:
-      -
       - TC81 - Lightning Protection Standardization Body
     alszervezetEN:
-      - 
       - TC81 - Lightning Protection Standardization Body
     szint:
-      - 
       - delegált
     szintEN:
-      - 
       - delegate
     date_start:
       - 2019.11.16.
-      - 2019.11.16.
     date_end:
-      - 
       - 
   - szervezet: Magyar Elektrotechnikai Egyesület
     szervezetEN: Hungarian Electrotechnical Association
