@@ -101,26 +101,50 @@ tagsagok:
     date_end:
       - 
       - 
+   - szervezet: IEC – International Electrotechnical Comission
+    szervezetEN: IEC – International Electrotechnical Comission
+    alszervezet:
+      -
+      - TC81 - Lightning Protection Standardization Body
+    alszervezetEN:
+      - 
+      - TC81 - Lightning Protection Standardization Body
+    szint:
+      - 
+      - delegált
+    szintEN:
+      - 
+      - delegate
+    date_start:
+      - 2019.11.16.
+      - 2019.11.16.
+    date_end:
+      - 
+      - 
   - szervezet: Magyar Elektrotechnikai Egyesület
     szervezetEN: Hungarian Electrotechnical Association
     alszervezet:
       -
+      - Mechwart András Ifjúsági Tagozat
       - Mechwart András Ifjúsági Tagozat
       - Villámvédelmi Munkabizottság
       - Oktatási Bizottság
     alszervezetEN:
       - 
       - Mechwart Andras Youth Division
+      - Mechwart Andras Youth Division
       - WG Lightning Protection
       - Education Committee 
     szint:
       - tag
       - tag
+      - alelnök
       - tag
       - tag
     szintEN:
       - member
       - member
+      - vice-president
       - member
       - member
     date_start:
@@ -138,21 +162,27 @@ tagsagok:
     alszervezet:
       - 
       - 
+      - 
     alszervezetEN:
+      - 
       - 
       - 
     szint:
       - VTDI és ITDI képviselő
       - elnök
+      - tanácsadó
     szintEN:
       - delegate
       - president
+      - adviser
     date_start:
       - 2016.09.01
       - 2017.09.01.
+      - 2020.01.01.
     date_end:
       - 2018.10.01.
-      - 2019.08.31.
+      - 2019.12.31.
+      - 
   - szervezet: Simonyi Károly Szakkollégium
     szervezetEN: Student Association Simonyi Károly
     alszervezet:
